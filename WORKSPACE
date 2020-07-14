@@ -35,4 +35,5 @@ container_pull(
     registry = "index.docker.io",
     repository = "envoyproxy/envoy",
     tag = "v1.14.4",
+    digest = "sha256:b29cafe337faa2db1da84de2276701d8b78314579b3dd1e7129b7b7f70cbae24"
 )

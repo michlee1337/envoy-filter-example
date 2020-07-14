@@ -8,3 +8,9 @@ container_image(
     base = "@envoy//image",
 )
 
+container_test(
+    name = "t",
+    configs = ["//envoy.yaml"],
+    image = ":envoy",
+)
+
